@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy – Neal Household Home Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <nav>
+    <a href="./">Home</a>
+    <a href="privacy.html" aria-current="page">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+  </nav>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective October 4, 2026</p>
+
+  <p>
+    This policy covers the Google OAuth app named "Home Assistant" (the "app"), which a
+    single household uses to connect its own Google Nest devices to its own self-hosted
+    Home Assistant server. The app is private and non-commercial.
+  </p>
+
+  <h2>Data the app accesses</h2>
+  <p>With the device owner's permission, granted on Google's consent screen, the app can access:</p>
+  <ul>
+    <li><strong>Google Nest devices the owner selects</strong> (Smart Device Management API): thermostat mode, setpoints, temperature, humidity, fan and Eco settings; the doorbell's live stream; doorbell, motion, person and sound events; and event snapshots.</li>
+    <li><strong>Google Cloud Pub/Sub</strong> in the owner's own Google Cloud project, used only to create and read the subscription that delivers device events to Home Assistant.</li>
+  </ul>
+  <p>The app does not request access to email, contacts, files, location history, or any other Google data.</p>
+
+  <h2>How the data is used</h2>
+  <p>
+    Data is used only to display device status and events in the household's own Home
+    Assistant and to run the household's own home automations (for example, a notification
+    when the doorbell rings, or adjusting a thermostat).
+  </p>
+
+  <h2>Where the data is stored</h2>
+  <p>
+    Device data and recent event snapshots are stored on the household's Home Assistant
+    server, located in the home. Access tokens are stored on that same server. Nothing is
+    stored by this website.
+  </p>
+
+  <h2>Sharing</h2>
+  <p>
+    Data obtained through Google APIs is not sold, not shared with or transferred to any
+    third party, not used for advertising, and not used to train AI or machine-learning
+    models. It is not accessed by anyone outside the household.
+  </p>
+  <p>
+    The app's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including the Limited Use requirements.
+  </p>
+
+  <h2>Retention and deletion</h2>
+  <p>
+    Device states and snapshots are kept on the household's server only as long as Home
+    Assistant's normal history settings retain them. Removing the Nest integration from Home
+    Assistant deletes the stored tokens.
+  </p>
+
+  <h2>Revoking access</h2>
+  <p>
+    The device owner can revoke access at any time from
+    <a href="https://myaccount.google.com/permissions">Google Account → Third-party connections</a>
+    or the Nest
+    <a href="https://nestservices.google.com/partnerconnections">Partner Connections Manager</a>.
+  </p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: contact <a href="https://github.com/joepaulneal">joepaulneal on GitHub</a>.</p>
+
+  <footer>Not affiliated with Google or the Home Assistant project.</footer>
+</main>
+</body>
+</html>
